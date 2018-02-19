@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="activity_two"
+            class="activity2"
+            type="com.example.vergi.myapplication.Activity2"></variable>
+
+        <variable
+            name="main_activity"
+            class="MainActivity"
+            type="com.example.vergi.myapplication.MainActivity"></variable>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginLeft="6dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/caffe_americano" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_below="@+id/imageView2"
+            android:text="What is it: " />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/imageView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="2 shots of Espresso and filtered hot water " />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:entries="@array/Toppings"
+            android:prompt="@string/spinnerPrompt"
+            android:spinnerMode="dropdown"
+            android:theme="@android:style/Theme.Holo.Light" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinner"
+            android:layout_alignStart="@+id/spinner"
+            android:layout_below="@+id/spinner"
+            android:entries="@array/Size"
+            android:prompt="@string/spinnerPrompt"
+            android:spinnerMode="dropdown"
+            android:theme="@android:style/Theme.Holo.Light" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/spinner2"
+            android:text="The Americano celebrates the flavors of espresso. It's a simple drink yet it must still be made with care. Our baristas immediately pour two espresso shots, the second they are pulled, into your cup and then quickly pour hot water over the top to produce a light layer of crema. The result is a wonderfully nuanced cup, with the depth that only freshly ground espresso can boast." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:shadowColor="#000000"
+            android:text="Add to Order"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#000000"
+            android:textColorLink="#000000" />
+
+    </RelativeLayout>
+
+</layout>

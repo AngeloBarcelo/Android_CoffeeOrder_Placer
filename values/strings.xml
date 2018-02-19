@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinnerPrompt">Select size</string>
+    <string name="title_americano">Two shots of espresso and filtered hot water.</string>
+    <string name="descrip_americano">The Americano celebrates the flavors of espresso. It\'s a simple drink yet it must still be made with care. Our baristas immediately pour two espresso shots, the second they are pulled, into your cup and then quickly pour hot water over the top to produce a light layer of crema. The result is a wonderfully nuanced cup, with the depth that only freshly ground espresso can boast.</string>
+    <string name="title_cappuccino">A shot of espresso topped with a deep layer of foamed milk.</string>
+    <string name="descrip_cappuccino">At the height of a barista\'s craft lies the Cappuccino. Trained to know when each drink has reached a specific weight, our baristas pass the test when the drink you hold in your hand is a perfect balance of light and airy foam and deeply delicious espresso. And of course, just say so if you prefer yours even lighter (ask for it \"dry\") or a bit more on the heavy side (ask for it \"wet\").</string>
+    <string name="title_doppio">Two shots of espresso, straight.</string>
+    <string name="descrip_doppio">The foundation of all our lattes, mochas, macchiatos and more, and the heart of our beverages, is our perfectly pulled espresso. A Doppio is simply two bold shots combined. Our baristas pull each shot within a precise five-second window and ensure each has three distinct layers: the crema, the body and the heart—or they toss it out and start again. It\'s been this way at Starbucks for over 40 years, because we believe that crafting the perfect espresso is the key to crafting the perfect drink.</string>
+    <string name="title_espr_machiato">Rich espresso topped with a dollop of milk foam.</string>
+    <string name="descrip_espr_machiato">This classic European-style beverage is made with a perfectly pulled shot of our signature espresso marked ever-so-lovingly by a dollop of steamed milk. Anything more than a hint of milk and we would risk obscuring the flavors that give our espresso blends their wonderful intensity.</string>
+    <string name="title_flat_white">Sweet ristretto espresso shots finished wiht steamed whole milk.</string>
+    <string name="descrip_flat_white">A product of simplicity, crafted into artistry, our baristas know that balance is key to the perfect Flat White. An extra ristretto shot ensures that it’s bolder than a latte, yet steamed milk keeps it smoother than a cappuccino. But perfection doesn\'t end there—the technique for steaming and pouring the milk requires close attention as well. Steamed milk is folded into itself creating a velvety microfoam that gives the Flat White its silky texture and signature white dot.</string>
+
+    <string-array name="Size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="Toppings">
+        <item>Plan, no toppings</item>
+        <item>Whipped Cream</item>
+        <item>Caramel</item>
+        <item>Mocha</item>
+    </string-array>
+</resources>
