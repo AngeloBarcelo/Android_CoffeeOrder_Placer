@@ -58,8 +58,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
@@ -82,8 +82,8 @@
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
 
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
@@ -105,8 +105,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
@@ -238,8 +238,8 @@
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/img_caffe_americano"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
@@ -262,8 +262,8 @@
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/img_cappuccino"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
@@ -286,8 +286,8 @@
 
                     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/img_doppio"
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="10dp"
@@ -400,6 +400,7 @@
                 </LinearLayout>
             </LinearLayout>
         </HorizontalScrollView>
+
 
         <LinearLayout
             android:layout_width="match_parent"

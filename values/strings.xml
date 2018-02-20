@@ -29,5 +29,9 @@
         <item>Whipped Cream</item>
         <item>Caramel</item>
         <item>Mocha</item>
+        <item>Whipped Cream and Caramel</item>
+        <item>Whipped Cream and Mocha</item>
+        <item>Caramel and Mocha</item>
+        <item>Everything</item>
     </string-array>
 </resources>
