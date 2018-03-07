@@ -18,6 +18,7 @@
     <string name="descrip_caffe_latte">What\'s not to love about a delicious espresso drink that you can help make completely your own? Our, espresso balanced with steamed milk serves as the perfect base for whatever flavors you choose to add. Go for sweet vanilla, creamy caramel, a seasonal favorite like Pumpkin Spice, or whatever your heart desires—the only thing that matters to us is that it\'s perfectly made and uniquely you.</string>
     <string name="title_macchiato">Foamed whole milk marked with shots of espresso</string>
     <string name="descrip_macchiato">Our Latte Macchiato begins with steaming creamy whole milk to create a delicate, meringue-like foam. Then our barista marks the top with shots of delicious espresso to ensure a robust first sip. The result is a smooth and satisfying drink with an intensely bold finish.</string>
+    <string name="items_in_order">Items in order</string>
 
     <string-array name="Size">
         <item>Small</item>
